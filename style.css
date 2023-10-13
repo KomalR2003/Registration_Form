@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    box-shadow: 1px 2px 2px 3px gray;
+
+}
+
+.container .content {
+    display: flex;
+    height: 60vh;
+    width: 60vw;
+    box-shadow: 1px 1px 2px 1px gray;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 30px 0 30px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sign {
+    margin-left: 30px;
+    width: 50%;
+}
+
+.sign input {
+    height: 5vh;
+    width: 20vw;
+}
+
+.sign .image {
+    width: 50%;
+}
+
+.sign i {
+    margin: 0 10px 0 0;
+}
+
+.sign input::placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.image img {
+    height: 50vh;
+}
+
+.check {
+    display: flex;
+}
+
+.sign button {
+    height: 5vh;
+    width: 7vw;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.check input {
+    height: 2vh;
+    width: 2vw;
+    margin-left: 20px;
+
+}
+
+.check span {
+    color: blue;
+}
